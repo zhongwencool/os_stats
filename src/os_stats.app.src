@@ -1,0 +1,15 @@
+{application, os_stats,
+ [{description, "observer_cli os stats plugin"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  
+  {maintainers, ["zhongwencool"]},
+  {licenses, ["MIT"]},
+  {links, [{"Github", "https://github.com/zhongwencool/observer_cli"}]}
+ ]}.
